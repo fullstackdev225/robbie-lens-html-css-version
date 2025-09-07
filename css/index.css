@@ -22,3 +22,20 @@
     color: #fff;
     font-size: 1.2em;
 }
+
+/* responsive design for mobile */
+
+@media screen and (max-width: 768px){
+    .introduce .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introduce .col{
+        margin: 5px;
+    }
+
+    .introduce img{
+        width: 300px;
+    }
+}

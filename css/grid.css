@@ -74,3 +74,35 @@
 .photo-link:hover .photo-hover{
     display: flex;
 }
+
+
+/* responsive design for mobile */
+
+@media screen and (max-width: 768px) {
+    .projects .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects .col{
+        margin: 5px;
+    }
+
+    .landscape .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landscape .col{
+        margin: 5px;
+    }
+
+    .portrait .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portrait .col{
+        margin: 5px;
+    }
+}

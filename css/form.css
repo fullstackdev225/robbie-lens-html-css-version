@@ -37,3 +37,20 @@
 .form-section .form .form-input:focus{
     border: 2px solid rgb(142, 16, 215);
 }
+
+/* responsive design for mobile */
+
+@media screen and (max-width: 768px) {
+    .form .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form .col{
+        margin: 5px;
+    }
+
+    .form .col .form-input{
+        width: 300px;
+    }
+}
