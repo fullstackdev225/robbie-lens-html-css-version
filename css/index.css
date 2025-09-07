@@ -1,0 +1,24 @@
+.introduce{
+    border: 2px solid rgb(41, 5, 62);
+    background-color: rgb(41, 5, 62);
+    padding: 30px;
+}
+
+.introduce .row{
+    display: flex;
+    justify-content: center;
+}
+
+.introduce .col{
+    padding: 8px;
+}
+
+.introduce h1{
+    font-size: 3em;
+    color: rgb(142, 16, 215);
+}
+
+.introduce p{
+    color: #fff;
+    font-size: 1.2em;
+}

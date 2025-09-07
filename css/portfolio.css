@@ -1,0 +1,10 @@
+.section-title{
+    border: 2px solid rgb(41, 5, 62);
+    background-color: rgb(41, 5, 62);
+}
+
+.section-title h1{
+    color: rgb(142, 16, 215);
+    font-size: 3em;
+    margin-left: 100px;
+}

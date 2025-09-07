@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Accueil - Robbie Lens photographie</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="header-title">Robbie <br> Lens</h1>
+
+            <nav class="navbar">
+                 <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Accueil</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">A propos</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                 </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="introduce">
+                <div class="row">
+                    <div class="col">
+                        <h1>Robbie Lens <br> photographie</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Unde iusto vitae delectus. Libero praesentium ipsa officia eligendi <br>
+                            reiciendis explicabo, nulla eaque deserunt asperiores <br> assumenda amet obcaecati,
+                            repellendus molestiae incidunt qui.
+                        </p><br>
+                        <a href="#form-project" class="btn">Un projet? Ecrivez-moi</a>
+                    </div>
+
+                    <div class="col">
+                        <img src="images/robbie-lens.png" alt="photo de robbie lens">
+                    </div>
+                </div>
+            </section><br><br>
+
+            <section class="projects">
+                <h1>Mes derniers projets</h1>
+
+                <div class="row">
+                    <div class="col">
+                        <img src="images/element-1.png" alt="">
+                    </div>
+
+                    <div class="col">
+                         <img src="images/element-2.png" alt="">
+                    </div>
+
+                    <div class="col">
+                         <img src="images/element-3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                         <img src="images/element-4.png" alt="">
+                    </div>
+
+                    <div class="col">
+                         <img src="images/element-5.png" alt="">
+                    </div>
+
+                    <div class="col">
+                         <img src="images/element-6.png" alt="">
+                    </div>
+                </div>
+            </section><br><br>
+
+            <section class="form-section" id="form-project">
+                <h1>Parlons de votre projet</h1>
+
+                <form class="form">
+                    <div class="row">
+                        <div class="col">
+                            <label for="name" class="form-label">Nom</label><br>
+                            <input type="text" name="name" id="name" class="form-input" required>
+                        </div>
+
+                        <div class="col">
+                            <label for="email" class="form-label">E-mail</label><br>
+                            <input type="email" name="email" id="email" required class="form-input">
+                        </div>
+                    </div><br>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="message" class="form-label">Message</label><br>
+                            <textarea name="message" id="message" required cols="30" rows="10" class="form-input"></textarea>
+                        </div>
+                    </div><br>
+
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h1 class="footer-title">Robbie <br> Lens</h1>
+
+            <div class="footer-social">
+                <a href="#" title="instagram"><img src="icons/instagram.png" alt="logo de instagram"></a>
+                <a href="#" title="twitter"><img src="icons/twitter.png" alt="logo de twitter"></a>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+.form-section{
+    border: 2px solid rgb(41, 5, 62);
+    background-color: rgb(41, 5, 62);
+    padding: 30px;
+}
+
+.form-section h1{
+    text-align: center;
+    color: rgb(142, 16, 215);
+}
+
+.form-section .form .row{
+    display: flex;
+    justify-content: center;
+}
+
+.form-section .form .col{
+    padding: 5px;
+}
+
+.form-section .form .form-label{
+    color: #fff;
+}
+
+.form-section .form input{
+    width: 500px;
+}
+
+.form-section .form textarea{
+    width: 1020px;
+}
+
+.form-section .form .form-input{
+    outline: none;
+}
+
+.form-section .form .form-input:focus{
+    border: 2px solid rgb(142, 16, 215);
+}

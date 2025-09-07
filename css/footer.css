@@ -1,0 +1,15 @@
+.footer{
+     border: 2px solid rgb(142, 16, 215);
+     background-color: rgb(142, 16, 215);
+}
+
+.footer .footer-title{
+    margin-left: 100px;
+    color: rgb(41, 5, 62);
+}
+
+.footer .footer-social{
+    float: right;
+    margin-top: -70px;
+    margin-right: 100px;
+}

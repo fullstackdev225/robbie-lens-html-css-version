@@ -1,0 +1,76 @@
+.projects h1{
+    text-align: center;
+}
+
+.projects .row{
+    display: flex;
+    justify-content: center;
+}
+
+.projects .col{
+    padding: 5px;
+}
+
+
+.landscape h1{
+    text-align: center;
+}
+
+.landscape .row{
+    display: flex;
+    justify-content: center;
+}
+
+.landscape .col{
+    padding: 5px;
+}
+
+
+.portrait h1{
+    text-align: center;
+}
+
+.portrait .row{
+    display: flex;
+    justify-content: center;
+}
+
+.portrait .col{
+    padding: 5px;
+}
+
+
+.photo-link{
+    position: relative;
+    text-decoration: none;
+}
+
+.photo-hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.3em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.landscape .photo-hover{
+    margin-top: -185px;
+    margin-bottom: 3px;
+}
+
+.portrait .photo-hover{
+    margin-top: -435px;
+    margin-bottom: 3px;
+}
+
+.photo-link:hover .photo-hover{
+    display: flex;
+}
